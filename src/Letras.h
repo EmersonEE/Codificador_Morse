@@ -52,8 +52,8 @@ void LetraA()
 void LetraB()
 {
     barra();
-    barra();
-    barra();
+    punto();
+    punto();
     punto();
 }
 
@@ -309,4 +309,31 @@ void Num9()
     barra();
     barra();
     punto();
+}
+void Ayuda()
+{
+    LetraA();
+    LetraY();
+    LetraU();
+    LetraD();
+    LetraA();
+}
+
+void SOS()
+{
+    LetraS();
+    LetraO();
+    LetraS();
+}
+void HolaMundo(){
+    LetraH();
+    LetraO();
+    LetraL();
+    LetraA();
+    Espacio();
+    LetraM();
+    LetraU();
+    LetraN();
+    LetraD();
+    LetraO();
 }
